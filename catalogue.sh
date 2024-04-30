@@ -5,7 +5,7 @@ cp catalogue.service /etc/systemd/system/catalogue.service
 
 echo -e "\e[35m>>>>>>>>>>>>>>>>>>>>>>>>>>> create mongo repo  <<<<<<<<<<<<<<<<<<<<<<<<<<<<\e[0m"
 
-cp mongo.repo /etc.yum.repos.d/mongo.repo
+cp mongo.repo /etc/yum.repos.d/mongo.repo
 
 echo -e "\e[35m>>>>>>>>>>>>>>>>>>>>>>>>>>> download catalogue zip file <<<<<<<<<<<<<<<<<<<<<<<<<<<<\e[0m"
 
