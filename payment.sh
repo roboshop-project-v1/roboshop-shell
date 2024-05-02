@@ -2,4 +2,4 @@ component=payment
 
 source common.sh
 
-func_java
+func_python
