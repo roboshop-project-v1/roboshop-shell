@@ -1,4 +1,4 @@
-component = "payment"
+component = payment
 
 source common.sh
 
