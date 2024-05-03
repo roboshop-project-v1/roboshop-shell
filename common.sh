@@ -105,6 +105,7 @@ func_python(){
     func_exit_status
     func_appprereq
     func_exit_status
+    sed -i "s/rabbitmq_app_passwd/${rabbitmq_app_passwd}" /etc/systemd/system/${component}.service
     echo -e "\e[35m>>>>>>>>>>>>>>>>>>>>>>>>>>> python req install <<<<<<<<<<<<<<<<<<<<<<<<<<<<\e[0m" 
     pip3.6 install -r requirements.txt
     func_exit_status
